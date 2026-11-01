@@ -1,0 +1,41 @@
+{
+  "schema": "hvaclab-materials-1",
+  "component": "@hvaclab/evaporator",
+  "synthetic": true,
+  "note": "Synthetic example data, not engineering data.",
+  "totalMassKg": 2.6,
+  "materials": [
+    {
+      "part": "Tubes",
+      "name": "Copper, inner-grooved",
+      "standardGrade": "EN 12735-2 Cu-DHP",
+      "densityKgPerM3": 8940,
+      "massFraction": 0.4,
+      "notes": "5 mm tubes"
+    },
+    {
+      "part": "Fins",
+      "name": "Aluminium, hydrophilic coated",
+      "standardGrade": "EN AW-8011 H22",
+      "densityKgPerM3": 2710,
+      "massFraction": 0.47,
+      "notes": "Slit fins"
+    },
+    {
+      "part": "End plates",
+      "name": "Steel, galvanised",
+      "standardGrade": "EN 10346 DX51D+Z",
+      "densityKgPerM3": 7850,
+      "massFraction": 0.1,
+      "notes": ""
+    },
+    {
+      "part": "Brazing alloy",
+      "name": "Phosphor copper",
+      "standardGrade": "ISO 17672 CuP 179",
+      "densityKgPerM3": 8100,
+      "massFraction": 0.03,
+      "notes": ""
+    }
+  ]
+}
